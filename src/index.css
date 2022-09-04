@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.movies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  color:rgb(3, 3, 3);
+  text-align: center;
+}
+
+.star input[type="radio"] {
+  display: none;
+}
